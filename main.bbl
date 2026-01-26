@@ -1,0 +1,111 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{HS{\etalchar{+}}52}
+
+\bibitem[BV04]{BV04}
+Stephen Boyd and Lieven Vandenberghe.
+\newblock {\em Convex Optimization}.
+\newblock {Cambridge university press}, 2004.
+
+\bibitem[DO19]{do19}
+Jelena Diakonikolas and Lorenzo Orecchia.
+\newblock Conjugate gradients and accelerated methods unified: The approximate
+  duality gap view.
+\newblock {\em arXiv preprint arXiv:1907.00289}, 2019.
+
+\bibitem[DS08]{DS08}
+Samuel~I. Daitch and Daniel~A. Spielman.
+\newblock Faster approximate lossy generalized flow via interior point
+  algorithms.
+\newblock In {\em Proceedings of the Fortieth Annual {{ACM}} Symposium on
+  {{Theory}} of Computing}, {{STOC}} '08, pages 451--460, {New York, NY, USA},
+  May 2008. {Association for Computing Machinery}.
+
+\bibitem[Edm65]{edmonds1965paths}
+Jack Edmonds.
+\newblock Paths, trees, and flowers.
+\newblock {\em Canadian Journal of mathematics}, 17:449--467, 1965.
+
+\bibitem[Gab18]{gabow2018data}
+Harold~N Gabow.
+\newblock Data structures for weighted matching and extensions to b-matching
+  and f-factors.
+\newblock {\em ACM Transactions on Algorithms (TALG)}, 14(3):1--80, 2018.
+
+\bibitem[HS{\etalchar{+}}52]{hs52}
+Magnus~R Hestenes, Eduard Stiefel, et~al.
+\newblock Methods of conjugate gradients for solving linear systems.
+\newblock {\em Journal of research of the National Bureau of Standards},
+  49(6):409--436, 1952.
+
+\bibitem[KS16]{ks16}
+R.~{Kyng} and S.~{Sachdeva}.
+\newblock Approximate gaussian elimination for laplacians - fast, sparse, and
+  simple.
+\newblock In {\em 2016 IEEE 57th Annual Symposium on Foundations of Computer
+  Science (FOCS)}, pages 573--582, 2016.
+
+\bibitem[Lan52]{l52}
+Cornelius Lanczos.
+\newblock Solution of systems of linear equations by minimized iterations.
+\newblock {\em J. Res. Nat. Bur. Standards}, 49(1):33--53, 1952.
+
+\bibitem[LS20a]{LS20b}
+Yang~P. Liu and Aaron Sidford.
+\newblock Faster {{Divergence Maximization}} for {{Faster Maximum Flow}}.
+\newblock {\em arXiv:2003.08929 [cs, math]}, April 2020.
+
+\bibitem[LS20b]{LS20a}
+Yang~P. Liu and Aaron Sidford.
+\newblock Faster energy maximization for faster maximum flow.
+\newblock In {\em Proceedings of the 52nd {{Annual ACM SIGACT Symposium}} on
+  {{Theory}} of {{Computing}}}, pages 803--814, 2020.
+
+\bibitem[Mad13]{M13}
+Aleksander Madry.
+\newblock Navigating central path with electrical flows: {{From}} flows to
+  matchings, and back.
+\newblock In {\em 2013 {{IEEE}} 54th {{Annual Symposium}} on {{Foundations}} of
+  {{Computer Science}}}, pages 253--262. {IEEE}, 2013.
+
+\bibitem[Nes83]{n83}
+Y.~E. Nesterov.
+\newblock A method for solving the convex programming problem with convergence
+  rate $o(1/k^2)$.
+\newblock {\em Dokl. Akad. Nauk SSSR}, 269:543--547, 1983.
+
+\bibitem[NY83]{ny83}
+A~Nemirovski and D~Yudin.
+\newblock Information-based complexity of mathematical programming.
+\newblock {\em Izvestia AN SSSR, Ser. Tekhnicheskaya Kibernetika (the journal
+  is translated to English as Engineering Cybernetics. Soviet J. Computer \&
+  Systems Sci.)}, 1, 1983.
+
+\bibitem[Spi19]{S19}
+Daniel~A Spielman.
+\newblock Spectral and {{Algebraic Graph Theory}}, 2019.
+
+\bibitem[SS11]{spielman2011graph}
+Daniel~A Spielman and Nikhil Srivastava.
+\newblock Graph sparsification by effective resistances.
+\newblock {\em SIAM Journal on Computing}, 40(6):1913--1926, 2011.
+
+\bibitem[ST04]{st04}
+Daniel~A. Spielman and Shang-Hua Teng.
+\newblock Nearly-linear time algorithms for graph partitioning, graph
+  sparsification, and solving linear systems.
+\newblock In {\em Proceedings of the Thirty-Sixth Annual ACM Symposium on
+  Theory of Computing}, STOC ’04, page 81–90, New York, NY, USA, 2004.
+  Association for Computing Machinery.
+
+\bibitem[T{\etalchar{+}}15]{tropp15}
+Joel~A Tropp et~al.
+\newblock An introduction to matrix concentration inequalities.
+\newblock {\em Foundations and Trends{\textregistered} in Machine Learning},
+  8(1-2):1--230, 2015.
+
+\bibitem[Tro19]{tropp19}
+Joel~A Tropp.
+\newblock Matrix concentration \& computational linear algebra.
+\newblock 2019.
+
+\end{thebibliography}
