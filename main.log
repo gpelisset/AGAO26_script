@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.6)  26 JAN 2026 18:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.6)  12 FEB 2026 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1470,13 +1470,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [9
 
 ]
-<fig/lecture1_battery9volts.png, id=758, 847.165pt x 659.46375pt>
+<fig/lecture1_battery9volts.png, id=757, 847.165pt x 659.46375pt>
 File: fig/lecture1_battery9volts.png Graphic file (type png)
 <use fig/lecture1_battery9volts.png>
 Package pdftex.def Info: fig/lecture1_battery9volts.png  used on input line 48.
 
 (pdftex.def)             Requested size: 234.87749pt x 182.83731pt.
-<fig/lecture1_battery1ampere.png, id=760, 800.9925pt x 583.17876pt>
+<fig/lecture1_battery1ampere.png, id=759, 800.9925pt x 583.17876pt>
 File: fig/lecture1_battery1ampere.png Graphic file (type png)
 <use fig/lecture1_battery1ampere.png>
 Package pdftex.def Info: fig/lecture1_battery1ampere.png  used on input line 61
@@ -1484,18 +1484,18 @@ Package pdftex.def Info: fig/lecture1_battery1ampere.png  used on input line 61
 (pdftex.def)             Requested size: 234.87749pt x 171.004pt.
 
 [10 <./fig/lecture1_battery9volts.png> <./fig/lecture1_battery1ampere.png>]
-<fig/lecture1_ohmslawx-vs-f.png, id=772, 958.58125pt x 651.43375pt>
+<fig/lecture1_ohmslawx-vs-f.png, id=771, 958.58125pt x 651.43375pt>
 File: fig/lecture1_ohmslawx-vs-f.png Graphic file (type png)
 <use fig/lecture1_ohmslawx-vs-f.png>
 Package pdftex.def Info: fig/lecture1_ohmslawx-vs-f.png  used on input line 76.
 
 (pdftex.def)             Requested size: 234.87749pt x 159.61757pt.
-<fig/lecture1_graphpath.png, id=773, 1067.99pt x 489.83pt>
+<fig/lecture1_graphpath.png, id=772, 1067.99pt x 489.83pt>
 File: fig/lecture1_graphpath.png Graphic file (type png)
 <use fig/lecture1_graphpath.png>
 Package pdftex.def Info: fig/lecture1_graphpath.png  used on input line 86.
 (pdftex.def)             Requested size: 234.87749pt x 107.72556pt.
-<fig/lecture1_graphpath-labelled.png, id=774, 1068.99374pt x 600.2425pt>
+<fig/lecture1_graphpath-labelled.png, id=773, 1068.99374pt x 600.2425pt>
 File: fig/lecture1_graphpath-labelled.png Graphic file (type png)
 <use fig/lecture1_graphpath-labelled.png>
 Package pdftex.def Info: fig/lecture1_graphpath-labelled.png  used on input lin
@@ -1505,7 +1505,7 @@ e 108.
 Underfull \vbox (badness 7925) has occurred while \output is active []
 
  [11 <./fig/lecture1_ohmslawx-vs-f.png> <./fig/lecture1_graphpath.png>]
-<fig/lecture1_graphtriangle.png, id=783, 1111.15125pt x 582.175pt>
+<fig/lecture1_graphtriangle.png, id=782, 1111.15125pt x 582.175pt>
 File: fig/lecture1_graphtriangle.png Graphic file (type png)
 <use fig/lecture1_graphtriangle.png>
 Package pdftex.def Info: fig/lecture1_graphtriangle.png  used on input line 118
@@ -1514,20 +1514,20 @@ Package pdftex.def Info: fig/lecture1_graphtriangle.png  used on input line 118
  [12{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.e
 nc} <./fig/lecture1_graphpath-labelled.png> <./fig/lecture1_graphtriangle.png>]
  [13]
-<fig/lecture1_flow-vs-energy.png, id=805, 1200.485pt x 843.15pt>
+<fig/lecture1_flow-vs-energy.png, id=804, 1200.485pt x 843.15pt>
 File: fig/lecture1_flow-vs-energy.png Graphic file (type png)
 <use fig/lecture1_flow-vs-energy.png>
 Package pdftex.def Info: fig/lecture1_flow-vs-energy.png  used on input line 25
 3.
 (pdftex.def)             Requested size: 281.85585pt x 197.96016pt.
  [14 <./fig/lecture1_flow-vs-energy.png>] [15] [16]
-<fig/lecture1_flow-vs-energy-convex.png, id=834, 1438.37375pt x 1023.825pt>
+<fig/lecture1_flow-vs-energy-convex.png, id=833, 1438.37375pt x 1023.825pt>
 File: fig/lecture1_flow-vs-energy-convex.png Graphic file (type png)
 <use fig/lecture1_flow-vs-energy-convex.png>
 Package pdftex.def Info: fig/lecture1_flow-vs-energy-convex.png  used on input 
 line 427.
 (pdftex.def)             Requested size: 281.85585pt x 200.62146pt.
-<fig/lec1_convex_sets.pdf, id=836, 3132.20187pt x 1273.25688pt>
+<fig/lec1_convex_sets.pdf, id=835, 3132.20187pt x 1273.25688pt>
 File: fig/lec1_convex_sets.pdf Graphic file (type pdf)
 <use fig/lec1_convex_sets.pdf>
 Package pdftex.def Info: fig/lec1_convex_sets.pdf  used on input line 449.
@@ -1541,26 +1541,26 @@ Chapter 2.
 [22
 
 ]
-<fig/lect1_attaining-min.png, id=907, 1006.76125pt x 322.20375pt>
+<fig/lect1_attaining-min.png, id=906, 1006.76125pt x 322.20375pt>
 File: fig/lect1_attaining-min.png Graphic file (type png)
 <use fig/lect1_attaining-min.png>
 Package pdftex.def Info: fig/lect1_attaining-min.png  used on input line 69.
 (pdftex.def)             Requested size: 469.75499pt x 150.33942pt.
  [23 <./fig/lect1_attaining-min.png>]
-<fig/lecture2_plot3d-nonjointconvex.png, id=920, 449.68pt x 281.05pt>
+<fig/lecture2_plot3d-nonjointconvex.png, id=919, 449.68pt x 281.05pt>
 File: fig/lecture2_plot3d-nonjointconvex.png Graphic file (type png)
 <use fig/lecture2_plot3d-nonjointconvex.png>
 Package pdftex.def Info: fig/lecture2_plot3d-nonjointconvex.png  used on input 
 line 120.
 (pdftex.def)             Requested size: 187.89912pt x 117.43552pt.
  [24 <./fig/lecture2_plot3d-nonjointconvex.png>] [25]
-<fig/lecture2_taylor-1st-order-remainder.png, id=945, 910.1202pt x 462.528pt>
+<fig/lecture2_taylor-1st-order-remainder.png, id=944, 910.1202pt x 462.528pt>
 File: fig/lecture2_taylor-1st-order-remainder.png Graphic file (type png)
 <use fig/lecture2_taylor-1st-order-remainder.png>
 Package pdftex.def Info: fig/lecture2_taylor-1st-order-remainder.png  used on i
 nput line 229.
 (pdftex.def)             Requested size: 187.89912pt x 95.48932pt.
-<fig/lecture2_convex-linear-lb.png, id=946, 792.561pt x 512.6352pt>
+<fig/lecture2_convex-linear-lb.png, id=945, 792.561pt x 512.6352pt>
 File: fig/lecture2_convex-linear-lb.png Graphic file (type png)
 <use fig/lecture2_convex-linear-lb.png>
 Package pdftex.def Info: fig/lecture2_convex-linear-lb.png  used on input line 
@@ -1730,7 +1730,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 [55]) (./lecture_pinvAndReff.tex [56]
 Chapter 5.
-<fig/lecture6_incidence-example.jpeg, id=1259, 1373.13pt x 526.96875pt>
+<fig/lecture6_incidence-example.jpeg, id=1258, 1373.13pt x 526.96875pt>
 File: fig/lecture6_incidence-example.jpeg Graphic file (type jpg)
 <use fig/lecture6_incidence-example.jpeg>
 Package pdftex.def Info: fig/lecture6_incidence-example.jpeg  used on input lin
@@ -1739,19 +1739,19 @@ e 44.
 [57
 
 ] [58 <./fig/lecture6_incidence-example.jpeg>]
-<fig/lecture6_maxminfig.jpeg, id=1275, 2448.14626pt x 692.5875pt>
+<fig/lecture6_maxminfig.jpeg, id=1274, 2448.14626pt x 692.5875pt>
 File: fig/lecture6_maxminfig.jpeg Graphic file (type jpg)
 <use fig/lecture6_maxminfig.jpeg>
 Package pdftex.def Info: fig/lecture6_maxminfig.jpeg  used on input line 105.
 (pdftex.def)             Requested size: 469.75499pt x 132.89285pt.
  [59 <./fig/lecture6_maxminfig.jpeg>]
-<fig/lecture6_seriesres.jpeg, id=1282, 1476.51625pt x 296.10625pt>
+<fig/lecture6_seriesres.jpeg, id=1281, 1476.51625pt x 296.10625pt>
 File: fig/lecture6_seriesres.jpeg Graphic file (type jpg)
 <use fig/lecture6_seriesres.jpeg>
 Package pdftex.def Info: fig/lecture6_seriesres.jpeg  used on input line 187.
 (pdftex.def)             Requested size: 281.85585pt x 56.52281pt.
  [60]
-<fig/lecture6_parallelres.jpeg, id=1291, 757.83125pt x 647.41875pt>
+<fig/lecture6_parallelres.jpeg, id=1290, 757.83125pt x 647.41875pt>
 File: fig/lecture6_parallelres.jpeg Graphic file (type jpg)
 <use fig/lecture6_parallelres.jpeg>
 Package pdftex.def Info: fig/lecture6_parallelres.jpeg  used on input line 222.
@@ -1763,7 +1763,7 @@ Chapter 6.
 [64
 
 ] [65] [66]
-<fig/lecture7_schur-clique.jpeg, id=1346, 1971.365pt x 1145.27875pt>
+<fig/lecture7_schur-clique.jpeg, id=1345, 1971.365pt x 1145.27875pt>
 File: fig/lecture7_schur-clique.jpeg Graphic file (type jpg)
 <use fig/lecture7_schur-clique.jpeg>
 Package pdftex.def Info: fig/lecture7_schur-clique.jpeg  used on input line 301
@@ -1772,7 +1772,7 @@ Package pdftex.def Info: fig/lecture7_schur-clique.jpeg  used on input line 301
  [67 <./fig/lecture7_schur-clique.jpeg>] [68] [69])
 (./lecture_CheegerAndExpanders.tex [70]
 Chapter 7.
-<fig/fig1_lecCheeger.png, id=1380, 903.375pt x 905.88437pt>
+<fig/fig1_lecCheeger.png, id=1379, 903.375pt x 905.88437pt>
 File: fig/fig1_lecCheeger.png Graphic file (type png)
 <use fig/fig1_lecCheeger.png>
 Package pdftex.def Info: fig/fig1_lecCheeger.png  used on input line 15.
@@ -1780,7 +1780,7 @@ Package pdftex.def Info: fig/fig1_lecCheeger.png  used on input line 15.
 [71
 
  <./fig/fig1_lecCheeger.png>] [72] [73] [74] [75]
-<fig/fig2_lecCheeger.png, id=1429, 1005.7575pt x 879.285pt>
+<fig/fig2_lecCheeger.png, id=1428, 1005.7575pt x 879.285pt>
 File: fig/fig2_lecCheeger.png Graphic file (type png)
 <use fig/fig2_lecCheeger.png>
 Package pdftex.def Info: fig/fig2_lecCheeger.png  used on input line 179.
@@ -1797,7 +1797,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
 [77]) (./lecture_RandomWalks.tex [78]
 Chapter 8.
-<fig/lec_RandomWalks_fig1.png, id=1451, 985.18062pt x 420.06938pt>
+<fig/lec_RandomWalks_fig1.png, id=1450, 985.18062pt x 420.06938pt>
 File: fig/lec_RandomWalks_fig1.png Graphic file (type png)
 <use fig/lec_RandomWalks_fig1.png>
 Package pdftex.def Info: fig/lec_RandomWalks_fig1.png  used on input line 22.
@@ -1805,7 +1805,7 @@ Package pdftex.def Info: fig/lec_RandomWalks_fig1.png  used on input line 22.
 [79
 
 ] [80 <./fig/lec_RandomWalks_fig1.png>]
-<fig/lec_RandomWalks_fig2.jpg, id=1467, 1985.4175pt x 646.415pt>
+<fig/lec_RandomWalks_fig2.jpg, id=1466, 1985.4175pt x 646.415pt>
 File: fig/lec_RandomWalks_fig2.jpg Graphic file (type jpg)
 <use fig/lec_RandomWalks_fig2.jpg>
 Package pdftex.def Info: fig/lec_RandomWalks_fig2.jpg  used on input line 82.
@@ -1825,7 +1825,7 @@ Chapter 9.
 [88
 
 ]
-<fig/lecture7_exp-bounds.png, id=1535, 322.20375pt x 721.94719pt>
+<fig/lecture7_exp-bounds.png, id=1534, 322.20375pt x 721.94719pt>
 File: fig/lecture7_exp-bounds.png Graphic file (type png)
 <use fig/lecture7_exp-bounds.png>
 Package pdftex.def Info: fig/lecture7_exp-bounds.png  used on input line 132.
@@ -1844,12 +1844,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [95]
 [96]
-<fig/lecture8_gtil.jpeg, id=1666, 1107.13625pt x 509.905pt>
+<fig/lecture8_gtil.jpeg, id=1665, 1107.13625pt x 509.905pt>
 File: fig/lecture8_gtil.jpeg Graphic file (type jpg)
 <use fig/lecture8_gtil.jpeg>
 Package pdftex.def Info: fig/lecture8_gtil.jpeg  used on input line 527.
 (pdftex.def)             Requested size: 281.85585pt x 129.81009pt.
-<fig/lecture8_cutvalue.jpeg, id=1669, 1480.53125pt x 1174.3875pt>
+<fig/lecture8_cutvalue.jpeg, id=1668, 1480.53125pt x 1174.3875pt>
 File: fig/lecture8_cutvalue.jpeg Graphic file (type jpg)
 <use fig/lecture8_cutvalue.jpeg>
 Package pdftex.def Info: fig/lecture8_cutvalue.jpeg  used on input line 554.
@@ -1904,7 +1904,7 @@ Overfull \hbox (13.43478pt too wide) detected at line 602
  []
 
 [110] [111]
-<fig/lec9_stoppedmartingale.png, id=1849, 740.7675pt x 247.92625pt>
+<fig/lec9_stoppedmartingale.png, id=1848, 740.7675pt x 247.92625pt>
 File: fig/lec9_stoppedmartingale.png Graphic file (type png)
 <use fig/lec9_stoppedmartingale.png>
 Package pdftex.def Info: fig/lec9_stoppedmartingale.png  used on input line 701
@@ -2004,7 +2004,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.11.2
                                                   \__shipout_drop_firstpage_...
 l.194 \end{proof}
                  ]
-<fig/fig1_lec10.PNG, id=1969, 247.52475pt x 103.88812pt>
+<fig/fig1_lec10.PNG, id=1968, 247.52475pt x 103.88812pt>
 File: fig/fig1_lec10.PNG Graphic file (type png)
 <use fig/fig1_lec10.PNG>
 Package pdftex.def Info: fig/fig1_lec10.PNG  used on input line 199.
@@ -2014,13 +2014,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--201
 
  []
 
-<fig/fig2_lec10.PNG, id=1970, 300.52275pt x 177.0615pt>
+<fig/fig2_lec10.PNG, id=1969, 300.52275pt x 177.0615pt>
 File: fig/fig2_lec10.PNG Graphic file (type png)
 <use fig/fig2_lec10.PNG>
 Package pdftex.def Info: fig/fig2_lec10.PNG  used on input line 225.
 (pdftex.def)             Requested size: 30.05403pt x 17.70718pt.
 [124 <./fig/fig1_lec10.PNG> <./fig/fig2_lec10.PNG>]
-<fig/fig5_lec10.PNG, id=1983, 1933.2225pt x 759.58781pt>
+<fig/fig5_lec10.PNG, id=1982, 1933.2225pt x 759.58781pt>
 File: fig/fig5_lec10.PNG Graphic file (type png)
 <use fig/fig5_lec10.PNG>
 Package pdftex.def Info: fig/fig5_lec10.PNG  used on input line 301.
@@ -2030,12 +2030,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 316--317
 
  []
 
-<fig/fig6_lec10.PNG, id=1996, 275.8305pt x 160.80075pt>
+<fig/fig6_lec10.PNG, id=1995, 275.8305pt x 160.80075pt>
 File: fig/fig6_lec10.PNG Graphic file (type png)
 <use fig/fig6_lec10.PNG>
 Package pdftex.def Info: fig/fig6_lec10.PNG  used on input line 341.
 (pdftex.def)             Requested size: 137.9149pt x 80.40016pt.
-<fig/fig7_lec10.PNG, id=1997, 211.69087pt x 144.23888pt>
+<fig/fig7_lec10.PNG, id=1996, 211.69087pt x 144.23888pt>
 File: fig/fig7_lec10.PNG Graphic file (type png)
 <use fig/fig7_lec10.PNG>
 Package pdftex.def Info: fig/fig7_lec10.PNG  used on input line 347.
@@ -2044,28 +2044,28 @@ Package pdftex.def Info: fig/fig7_lec10.PNG  used on input line 347.
 Underfull \vbox (badness 4217) has occurred while \output is active []
 
  [126 <./fig/fig5_lec10.PNG>]
-<fig/fig8_lec10.PNG, id=2014, 568.0422pt x 500.5902pt>
+<fig/fig8_lec10.PNG, id=2013, 568.0422pt x 500.5902pt>
 File: fig/fig8_lec10.PNG Graphic file (type png)
 <use fig/fig8_lec10.PNG>
 Package pdftex.def Info: fig/fig8_lec10.PNG  used on input line 354.
 (pdftex.def)             Requested size: 284.0204pt x 250.29448pt.
  [127 <./fig/fig6_lec10.PNG> <./fig/fig7_lec10.PNG> <./fig/fig8_lec10.PNG>]
-<fig/fig9_lec10.PNG, id=2032, 231.56512pt x 200.85037pt>
+<fig/fig9_lec10.PNG, id=2031, 231.56512pt x 200.85037pt>
 File: fig/fig9_lec10.PNG Graphic file (type png)
 <use fig/fig9_lec10.PNG>
 Package pdftex.def Info: fig/fig9_lec10.PNG  used on input line 385.
 (pdftex.def)             Requested size: 138.94014pt x 120.51114pt.
-<fig/fig10_lec10.PNG, id=2033, 771.63281pt x 476.53032pt>
+<fig/fig10_lec10.PNG, id=2032, 771.63281pt x 476.53032pt>
 File: fig/fig10_lec10.PNG Graphic file (type png)
 <use fig/fig10_lec10.PNG>
 Package pdftex.def Info: fig/fig10_lec10.PNG  used on input line 393.
 (pdftex.def)             Requested size: 385.81546pt x 238.26457pt.
-<fig/fig11_lec10.PNG, id=2035, 246.01912pt x 264.68887pt>
+<fig/fig11_lec10.PNG, id=2034, 246.01912pt x 264.68887pt>
 File: fig/fig11_lec10.PNG Graphic file (type png)
 <use fig/fig11_lec10.PNG>
 Package pdftex.def Info: fig/fig11_lec10.PNG  used on input line 399.
 (pdftex.def)             Requested size: 123.00925pt x 132.3441pt.
-<fig/fig12_lec10.PNG, id=2037, 211.08862pt x 190.61212pt>
+<fig/fig12_lec10.PNG, id=2036, 211.08862pt x 190.61212pt>
 File: fig/fig12_lec10.PNG Graphic file (type png)
 <use fig/fig12_lec10.PNG>
 Package pdftex.def Info: fig/fig12_lec10.PNG  used on input line 407.
@@ -2074,13 +2074,13 @@ Package pdftex.def Info: fig/fig12_lec10.PNG  used on input line 407.
 Underfull \vbox (badness 1163) has occurred while \output is active []
 
  [128 <./fig/fig9_lec10.PNG> <./fig/fig10_lec10.PNG> <./fig/fig11_lec10.PNG>]
-<fig/fig13_lec10.PNG, id=2052, 433.01775pt x 235.47975pt>
+<fig/fig13_lec10.PNG, id=2051, 433.01775pt x 235.47975pt>
 File: fig/fig13_lec10.PNG Graphic file (type png)
 <use fig/fig13_lec10.PNG>
 Package pdftex.def Info: fig/fig13_lec10.PNG  used on input line 415.
 (pdftex.def)             Requested size: 216.50833pt x 117.73958pt.
  [129 <./fig/fig12_lec10.PNG> <./fig/fig13_lec10.PNG>]
-<fig/fig14_lec10.PNG, id=2065, 607.068pt x 244.5135pt>
+<fig/fig14_lec10.PNG, id=2064, 607.068pt x 244.5135pt>
 File: fig/fig14_lec10.PNG Graphic file (type png)
 <use fig/fig14_lec10.PNG>
 Package pdftex.def Info: fig/fig14_lec10.PNG  used on input line 462.
@@ -2168,7 +2168,7 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/scit' undefined
 LaTeX Warning: Citation `chen2022maximum' on page 141 undefined on input line 3
 0.
 
-<./fig/embedGraph_lectureCutMatching.jpeg, id=2191, 2137.9875pt x 1030.85126pt>
+<./fig/embedGraph_lectureCutMatching.jpeg, id=2190, 2137.9875pt x 1030.85126pt>
 
 File: ./fig/embedGraph_lectureCutMatching.jpeg Graphic file (type jpg)
 <use ./fig/embedGraph_lectureCutMatching.jpeg>
@@ -2176,7 +2176,7 @@ Package pdftex.def Info: ./fig/embedGraph_lectureCutMatching.jpeg  used on inpu
 t line 39.
 (pdftex.def)             Requested size: 427.58994pt x 206.1666pt.
 [141 <./fig/embedGraph_lectureCutMatching.jpeg>]
-<./fig/AlgorithmProcessing_lectureCutMatching.jpeg, id=2200, 1824.8175pt x 1023
+<./fig/AlgorithmProcessing_lectureCutMatching.jpeg, id=2199, 1824.8175pt x 1023
 .825pt>
 File: ./fig/AlgorithmProcessing_lectureCutMatching.jpeg Graphic file (type jpg)
 
@@ -2185,7 +2185,7 @@ Package pdftex.def Info: ./fig/AlgorithmProcessing_lectureCutMatching.jpeg  use
 d on input line 82.
 (pdftex.def)             Requested size: 364.95703pt x 204.76137pt.
  [142] [143 <./fig/AlgorithmProcessing_lectureCutMatching.jpeg>]
-<./fig/FewEdgesCrossCut_lectureCutMatching.jpeg, id=2230, 1056.94875pt x 772.88
+<./fig/FewEdgesCrossCut_lectureCutMatching.jpeg, id=2229, 1056.94875pt x 772.88
 75pt>
 File: ./fig/FewEdgesCrossCut_lectureCutMatching.jpeg Graphic file (type jpg)
 <use ./fig/FewEdgesCrossCut_lectureCutMatching.jpeg>
@@ -2193,7 +2193,7 @@ Package pdftex.def Info: ./fig/FewEdgesCrossCut_lectureCutMatching.jpeg  used o
 n input line 110.
 (pdftex.def)             Requested size: 211.386pt x 154.57475pt.
  [144 <./fig/FewEdgesCrossCut_lectureCutMatching.jpeg>]
-<./fig/MixingWalkIsExpander_lectureCutMatching.jpeg, id=2238, 1248.665pt x 1019
+<./fig/MixingWalkIsExpander_lectureCutMatching.jpeg, id=2237, 1248.665pt x 1019
 .81pt>
 File: ./fig/MixingWalkIsExpander_lectureCutMatching.jpeg Graphic file (type jpg
 )
@@ -2233,7 +2233,7 @@ Chapter 14.
 [151
 
 ]
-<fig/lec12-non-strict-separator.png, id=2300, 767.86874pt x 445.665pt>
+<fig/lec12-non-strict-separator.png, id=2299, 767.86874pt x 445.665pt>
 File: fig/lec12-non-strict-separator.png Graphic file (type png)
 <use fig/lec12-non-strict-separator.png>
 Package pdftex.def Info: fig/lec12-non-strict-separator.png  used on input line
@@ -2244,14 +2244,14 @@ Underfull \hbox (badness 1418) in paragraph at lines 143--143
 []\OT1/cmr/bx/n/17.28 Lagrange Mul-ti-pli-ers and Du-al-ity of Con-vex
  []
 
-<fig/lec12-2p-norms.jpeg, id=2314, 551.05875pt x 441.65pt>
+<fig/lec12-2p-norms.jpeg, id=2313, 551.05875pt x 441.65pt>
 File: fig/lec12-2p-norms.jpeg Graphic file (type jpg)
 <use fig/lec12-2p-norms.jpeg>
 Package pdftex.def Info: fig/lec12-2p-norms.jpeg  used on input line 158.
 (pdftex.def)             Requested size: 225.48038pt x 180.71376pt.
 [154 <./fig/lec12-2p-norms.jpeg>] [155] [156] [157] [158] [159] [160] [161]
 [162] [163]
-<fig/lec12-the-sets-a-b.jpg, id=2421, 2409.0pt x 1017.8025pt>
+<fig/lec12-the-sets-a-b.jpg, id=2420, 2409.0pt x 1017.8025pt>
 File: fig/lec12-the-sets-a-b.jpg Graphic file (type jpg)
 <use fig/lec12-the-sets-a-b.jpg>
 Package pdftex.def Info: fig/lec12-the-sets-a-b.jpg  used on input line 856.
@@ -2291,7 +2291,7 @@ Chapter 16.
 [176
 
 ] [177] [178]
-<fig/logbarrier.png, id=2573, 392.46625pt x 264.99pt>
+<fig/logbarrier.png, id=2572, 392.46625pt x 264.99pt>
 File: fig/logbarrier.png Graphic file (type png)
 <use fig/logbarrier.png>
 Package pdftex.def Info: fig/logbarrier.png  used on input line 365.
@@ -2303,13 +2303,13 @@ a-tion
  []
 
 [179]
-<fig/logdivergence.png, id=2594, 376.40625pt x 278.03876pt>
+<fig/logdivergence.png, id=2593, 376.40625pt x 278.03876pt>
 File: fig/logdivergence.png Graphic file (type png)
 <use fig/logdivergence.png>
 Package pdftex.def Info: fig/logdivergence.png  used on input line 373.
 (pdftex.def)             Requested size: 281.85585pt x 208.21036pt.
  [180 <./fig/logbarrier.png> <./fig/logdivergence.png>]
-<fig/quad-div-apx.png, id=2604, 616.3025pt x 604.2575pt>
+<fig/quad-div-apx.png, id=2603, 616.3025pt x 604.2575pt>
 File: fig/quad-div-apx.png Graphic file (type png)
 <use fig/quad-div-apx.png>
 Package pdftex.def Info: fig/quad-div-apx.png  used on input line 490.
@@ -2373,14 +2373,14 @@ Chapter 19.
 [204
 
 ] [205]
-<fig/lecture_matching_bipartite.pdf, id=2919, 846.93544pt x 800.89018pt>
+<fig/lecture_matching_bipartite.pdf, id=2918, 846.93544pt x 800.89018pt>
 File: fig/lecture_matching_bipartite.pdf Graphic file (type pdf)
 <use fig/lecture_matching_bipartite.pdf>
 Package pdftex.def Info: fig/lecture_matching_bipartite.pdf  used on input line
  74.
 (pdftex.def)             Requested size: 234.87749pt x 222.10912pt.
  [206] [207 <./fig/lecture_matching_bipartite.pdf>]
-<fig/lecture_matching_dual.pdf, id=2957, 982.05898pt x 481.55388pt>
+<fig/lecture_matching_dual.pdf, id=2956, 982.05898pt x 481.55388pt>
 File: fig/lecture_matching_dual.pdf Graphic file (type pdf)
 <use fig/lecture_matching_dual.pdf>
 Package pdftex.def Info: fig/lecture_matching_dual.pdf  used on input line 136.
@@ -2392,20 +2392,20 @@ Package amsthm Warning: The \qedhere command may not work correctly here on inp
 ut line 162.
 
 [209 <./fig/lecture_matching_dual.pdf>] [210] [211]
-<fig/lecture_matching_blossom.pdf, id=3023, 1041.29297pt x 719.87267pt>
+<fig/lecture_matching_blossom.pdf, id=3022, 1041.29297pt x 719.87267pt>
 File: fig/lecture_matching_blossom.pdf Graphic file (type pdf)
 <use fig/lecture_matching_blossom.pdf>
 Package pdftex.def Info: fig/lecture_matching_blossom.pdf  used on input line 2
 64.
 (pdftex.def)             Requested size: 284.52756pt x 196.6969pt.
  [212] [213 <./fig/lecture_matching_blossom.pdf>]
-<fig/lecture_matching_contract.pdf, id=3095, 951.32513pt x 633.57773pt>
+<fig/lecture_matching_contract.pdf, id=3094, 951.32513pt x 633.57773pt>
 File: fig/lecture_matching_contract.pdf Graphic file (type pdf)
 <use fig/lecture_matching_contract.pdf>
 Package pdftex.def Info: fig/lecture_matching_contract.pdf  used on input line 
 294.
 (pdftex.def)             Requested size: 284.52756pt x 189.49472pt.
-<fig/lecture_matching_augment.pdf, id=3097, 1029.43398pt x 735.14517pt>
+<fig/lecture_matching_augment.pdf, id=3096, 1029.43398pt x 735.14517pt>
 File: fig/lecture_matching_augment.pdf Graphic file (type pdf)
 <use fig/lecture_matching_augment.pdf>
 Package pdftex.def Info: fig/lecture_matching_augment.pdf  used on input line 3
@@ -2413,7 +2413,7 @@ Package pdftex.def Info: fig/lecture_matching_augment.pdf  used on input line 3
 (pdftex.def)             Requested size: 284.52756pt x 203.19194pt.
  [214 <./fig/lecture_matching_contract.pdf>] [215 <./fig/lecture_matching_augme
 nt.pdf>] [216]
-<fig/lecture_matching_dissolve.pdf, id=3153, 464.25143pt x 785.6039pt>
+<fig/lecture_matching_dissolve.pdf, id=3152, 464.25143pt x 785.6039pt>
 File: fig/lecture_matching_dissolve.pdf Graphic file (type pdf)
 <use fig/lecture_matching_dissolve.pdf>
 Package pdftex.def Info: fig/lecture_matching_dissolve.pdf  used on input line 
@@ -2483,10 +2483,10 @@ texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2
 023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texliv
 e/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/
 2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (222 pages, 7124235 bytes).
+Output written on main.pdf (222 pages, 7123519 bytes).
 PDF statistics:
- 3682 PDF objects out of 4296 (max. 8388607)
- 3167 compressed objects within 32 object streams
+ 3681 PDF objects out of 4296 (max. 8388607)
+ 3166 compressed objects within 32 object streams
  1238 named destinations out of 1440 (max. 500000)
  1395 words of extra memory for PDF output out of 10000 (max. 10000000)
 
