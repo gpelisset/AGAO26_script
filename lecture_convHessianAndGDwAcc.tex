@@ -945,9 +945,9 @@ optimization problem appearing in the definition of $L_i$, so that
   \left(
     \phi(\vv_i)
     +
-    \sum_{j \leq i} a_i  f(\xx_i)
-    + \ip{ a_i\grad
-      f(\xx_{i}) ,\vv_i - \xx_i}
+    \sum_{j \leq i} a_j  f(\xx_j)
+    + \ip{ a_j\grad
+      f(\xx_{j}) ,\vv_i - \xx_j}
   \right)
   -
   \frac{\phi(\xx^*)}{A_i}
@@ -1065,7 +1065,7 @@ rescaled lower bound $A_iL_i$ \emph{without} optimizing over $\vv$.
    + \ip{ a_j\grad
      f(\xx_{j}) ,\vv - \xx_j}
  \]
-Thus $A_iL_i-A_{i+1}L_{i+1} = m_{i}(\vv_i) - m_{i+1}(\vv)$.
+Thus $A_iL_i-A_{i+1}L_{i+1} = m_{i}(\vv_i) - m_{i+1}(\vv_{i+1})$.
 Now, it is not too hard to show the
 following relationships.
 \begin{claim}
@@ -1182,7 +1182,7 @@ A_{i} \yy_{i} + a_{i+1} \vv_{i}
 \end{align*}
 ensures that the $k$th iterate satisfies
 \[
-  f(\xx_{k}) - f(\xx^*)\leq \frac{2 \beta \norm{\xx_0 - \xx^*}_2^2}{(k+1)(k+2)}
+  f(\yy_{k}) - f(\xx^*)\leq \frac{2 \beta \norm{\xx_0 - \xx^*}_2^2}{(k+1)(k+2)}
   .
 \]
 \end{theorem}
