@@ -875,7 +875,7 @@ having bounded norm and only produce multi-edges with bounded norm.
  .
   \]
 \end{lemma}
-As we will see later $K = 200 \log^2 n$ suffices.
+As we will see later $K = 1000 \log^2 n$ suffices.
 
 \subsection{Random Matrix Concentration from Trace Exponentials}
 Let us recall how matrix-valued variances come into the picture when
@@ -1013,7 +1013,7 @@ already finished). As a notational convenience, let's write $\hat{n} =
 n-1$.
 With all that in mind, we bound the mean-trace-exponential for some
 parameter
-$0 <\theta \leq 0.5/\sqrt{K}$
+$0 <\theta \leq 0.5\sqrt{K}$
 \begin{align}
     \label{eq:fulltrexpub1}
 &  \Ex{}\trace{\exp(\theta\sum_{i = 1}^{\hat{n}}\XXtil_{i} )}
@@ -1118,7 +1118,7 @@ Thus we can conclude by Claim~\ref{clm:cliquevsstar} that
   \norm{\Phi(\vcliq{\pi(i)}{\SS_{i}})} \leq 1.5.
 \]
 
-By our assumption $0 <\theta \leq 0.5/\sqrt{K}$, we have
+By our assumption $0 <\theta \leq 0.5\sqrt{K}$, we have
 $\norm{\frac{1}{K}\theta^2\Phi(\vcliq{\pi(i)}{\SS_{i-1}})}
 \leq 1$, so that by Corollary~\ref{cor:ineq_exp_cher},
 \begin{align}
@@ -1198,7 +1198,7 @@ And by repeating this analysis for each term $\XXtil_{i}$, we get
     \frac{7\theta^2\log(n)}{K}
     \right)
 \end{align*}
-Then, by choosing $K = 200 \log^2 n$ and $\theta = 0.5 \sqrt{K}$,
+Then, by choosing $K = 1000 \log^2 n$ and $\theta = 0.5 \sqrt{K}$,
 we get
 \[
 \exp(-0.5 \theta ) \Ex{}\trace{\exp(\theta\sum_{i =
