@@ -4,7 +4,7 @@
 In this lecture, we are interested in the following result. It says that even in graphs with negative edge weights, we can find the single-source shortest paths in near-linear time! This result has been obtained extremely recently and the algorithm is a beautiful combination of some of the most useful modern graph algorithmic techniques.
 
 \begin{theorem}\label{thm:negativeSSSPBNW}
-Given a directed graph $G=(V,E, \ww)$ with $\ww \in \mathbb{R}^V$ such that there exists no negative cycle in $G$, and a dedicated source vertex $s \in V$, the distances $\mathbf{dist}_G(s,t)$ can be computed in expected time $\tilde{O}(m \log(W))$ where $W = \|\ww\|_{\infty}$, i.e. $W$ is the largest absolute weight (and where we assume that the smallest absolute non-zero weight is at least $1$).
+Given a directed graph $G=(V,E, \ww)$ with $\ww \in \mathbb{R}^E$ such that there exists no negative cycle in $G$, and a dedicated source vertex $s \in V$, the distances $\mathbf{dist}_G(s,t)$ can be computed in expected time $\tilde{O}(m \log(W))$ where $W = \|\ww\|_{\infty}$, i.e. $W$ is the largest absolute weight (and where we assume that the smallest absolute non-zero weight is at least $1$).
 \end{theorem}
 
 Henceforth, we assume that any graph $G$ under consideration does not contain a negative weight cycle.
@@ -109,7 +109,7 @@ Then correctness follows by induction on $\eta(s,v)$, i.e. after the $h$-th iter
 The key idea used in Johnson's algorithm is the concept of a price function.
 
 \begin{definition}[Price Function]
-For any vector $\mathbf{\phi} \in \mathbb{R}$, we say $\phi$ is a \emph{price function} if $\ww_{\mathbf{\phi}} = \ww + \BB^{\trp} \mathbf{\phi} \geq \veczero$, i.e. where for each edge $e = (u,v) \in E$ directed from $u$ to $v$, we have that $\ww(e) + \phi(u) - \phi(v) \geq 0$. We write $G_{\phi}$ to mean the graph $(V, E, \ww_{\phi})$. %We further restrict price functions such that the smallest entry of $\phi$ is equal to $0$. We implicitly enforce this property throughout but we can also assume it wlog since $\ww_{\mathbf{\phi}}$ is invariant to $\phi$ being shifted along the all-ones vector $\vecone$.  
+For any vector $\mathbf{\phi} \in \mathbb{R}^V$, we say $\phi$ is a \emph{price function} if $\ww_{\mathbf{\phi}} = \ww + \BB^{\trp} \mathbf{\phi} \geq \veczero$, i.e. where for each edge $e = (u,v) \in E$ directed from $u$ to $v$, we have that $\ww(e) + \phi(u) - \phi(v) \geq 0$. We write $G_{\phi}$ to mean the graph $(V, E, \ww_{\phi})$. %We further restrict price functions such that the smallest entry of $\phi$ is equal to $0$. We implicitly enforce this property throughout but we can also assume it wlog since $\ww_{\mathbf{\phi}}$ is invariant to $\phi$ being shifted along the all-ones vector $\vecone$.  
 \end{definition}
 
 A price function is a nice tool since once one obtains a price function, one can run Dijkstra's algorithm on the graph $G_{\phi}$ and extract the real distances efficiently. Let us briefly prove that.

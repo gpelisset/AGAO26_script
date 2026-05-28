@@ -62,7 +62,7 @@ Although there are still some missing pieces, let us next discuss the algorithm 
 
 \begin{algorithm}[H]
     \For{$i = 1,2, \dots, T$}{
-        $(S_i, \overline{S}_i) \gets \textsc{FindBiPartition}(G, \{M_1, M_2, \dots, M_{i}\})$ \tcp*{Assume  $|S| = |\overline{S}| = n/2$}
+        $(S_i, \overline{S}_i) \gets \textsc{FindBiPartition}(G, \{M_1, M_2, \dots, M_{i-1}\})$ \tcp*{Assume  $|S| = |\overline{S}| = n/2$}
         Solve the flow problem on $G$ where each vertex $e \in E$ receives capacity $\cc(e) = 1/\psi$ and the demand at each edge $v \in S$ is $+1$ and for each $v \in \overline{S}$ is $-1$, by introducing a super-source $s$ and super-sink $t$\;
         \If{flow procedure returns a flow $\ff$ with $\val(f) = n/2$}{
             Remove $s,t$ to derive $S$-$\overline{S}$ flow; then decompose flow $\ff$ into flow paths $P_1, P_2, \dots, P_{n/2}$\;
@@ -169,7 +169,7 @@ The central claim, we want to prove is the following: given a potential function
     \Phi^t = \sum_{i,j} (\pp_{j \mapsto i}^t - 1/n)^2 = \sum_{i} \|\pp_{i}^t - \vecone/n\|_2^2.
 \]
 \begin{claim}\label{clm:mainClaimCutMatching}
-In the algorithm $\textsc{SparsityCertifyOrCut}(\cdot)$, we have $\mathbb{E}[\Phi^{t} - \Phi^{(t+1)}] = \Omega(\Phi^t / \log n) - O(1/n^{-5})$. Further, we have that $\Phi^{t} - \Phi^{(t+1)}$ is always non-negative. The expectation is over the random vector $\rr$ chosen in the current round.
+In the algorithm $\textsc{SparsityCertifyOrCut}(\cdot)$, we have $\mathbb{E}[\Phi^{t} - \Phi^{(t+1)}] = \Omega(\Phi^t / \log n) - O(1/n^5)$. Further, we have that $\Phi^{t} - \Phi^{(t+1)}$ is always non-negative. The expectation is over the random vector $\rr$ chosen in the current round.
 \end{claim}
 
 \begin{corollary}\label{cor:fewRoundsCutMathcing}
@@ -250,10 +250,10 @@ But note that $\mathbb{E}\left[\sum_{i \in V} \uu(i)^2 | \mathcal{E} \right]$ ha
 
 It remains to combine our insights to conclude
 \[
-\mathbb{E}[\Phi^{t} - \Phi^{(t+1)} | \neg \mathcal{E}] \geq \frac{n-1}{64 \cdot \log n} \left( \frac{\Phi^t}{n-1} - n^{-6} \right) = \Omega(\Phi^t / \log n) - O(1/n^{-5}).
+\mathbb{E}[\Phi^{t} - \Phi^{(t+1)} | \neg \mathcal{E}] \geq \frac{n-1}{64 \cdot \log n} \left( \frac{\Phi^t}{n-1} - n^{-6} \right) = \Omega(\Phi^t / \log n) - O(1/n^5).
 \]
 
-Since again the event $\mathcal{E}$ occurs with very low probability, and since $\Phi^t - \Phi^{t+1}$ is non-negative always, we can then conclude that in unconditionally, in expectation, the potential decreases by $\Omega(\Phi^t / \log n) - O(1/n^{-5}).$
+Since again the event $\mathcal{E}$ occurs with very low probability, and since $\Phi^t - \Phi^{t+1}$ is non-negative always, we can then conclude that in unconditionally, in expectation, the potential decreases by $\Omega(\Phi^t / \log n) - O(1/n^5).$
 
 
 %%% Local Variables:

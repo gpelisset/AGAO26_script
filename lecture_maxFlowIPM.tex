@@ -308,7 +308,7 @@ update $\alpha'$ is small enough,
   For the maximum flow problem, when capacities are integral and
   polynomially bounded, if we choose $\epsilon = m^{-c}$ for some
   large enough constant $c$, given a feasible flow with $\val(\ff) =
-  1-\epsilon$, is it possible to compute an exact maximum flow in
+  (1-\epsilon)F^*$, is it possible to compute an exact maximum flow in
   nearly linear time.
   Thus Theorem~\ref{thm:maxflowipm} can also be used to compute an
   exact maximum flow in $\Otil(m)$ time, but we omit the proof.
@@ -683,10 +683,10 @@ Thus,
   \BB^{\trp} \xx
   =
   \sum_e
-  \frac{\ddeltabar}
+  \frac{\ddeltabar(e)}
     {\cc(e)-\ff(e)}
     -
-    \frac{\ddeltabar}
+    \frac{\ddeltabar(e)}
     {\cc(e)+\ff(e)}
     \leq
     m

@@ -157,7 +157,7 @@ T_{\text{proj}} + n) ) }$ time.
 \begin{theorem}[Kyng and Sachdeva (2015) \cite{ks16}]
   \label{thm:apxgauss}
 Given a Laplacian $\LL$ of a weighted undirected graph $G = (V,E,\ww)$
-with $\abs{E}=M$ and $\abs{V} = n$,
+with $\abs{E}=m$ and $\abs{V} = n$,
 we can find a decomposition
 $\matlow\matlow^{\trp} \approx_{0.5} \LL $, such that
 $\matlow$ has number of non-zeroes $\nnz(\matlow) = O(m \log^3 n)$,
@@ -187,7 +187,7 @@ $\LL \xx = \dd$, using an algorithm that takes time $O(m \log^3 n
   Theorem~\ref{thm:apxgauss} can be rewritten as
   $\matlow\matlow^{\trp} = \matlowtil \calDD (\matlowtil)^{\trp}$
   where
-$\matlowtil$ is equal to $\matlow$ except $\matlow(n,n) = 1$
+$\matlowtil$ is equal to $\matlow$ except $\matlowtil(n,n) = 1$
 and we let $\calDD$ be the identity matrix, except $\calDD (n,n)
 = 0$.
 This ensures $\calDD^{\pinv} = \calDD$ and that $\matlowtil$ is

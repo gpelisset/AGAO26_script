@@ -220,7 +220,7 @@ sums of random matrices.
   random variables.
 Assume each $\XX_i$ is zero-mean, i.e. $\E{\XX_i} = \matzero_{n \times
   n}$, and that $\norm{\XX_i} \leq R$ always.
-Let $\XX = \sum_i \XX_i$, and $\sigma^2 = \Var{\XX} = \sum_i \E{\XX_i^2}$,
+Let $\XX = \sum_i \XX_i$, and $\sigma^2 = \norm{\Var{\XX}} = \norm{\sum_i \E{\XX_i^2}}$,
 then for $t > 0$
 \[
 \Pr[ \norm{\XX} \geq t] \leq 2n\exp\left(\frac{-t^2}{2Rt + 4\sigma^2}\right)
@@ -308,7 +308,7 @@ We say that a function $f : \calS \to \R$, where $\calS \subseteq \symsetn$,
   is said to be operator monotone increasing if $\AA \preceq \BB $ implies
   $f(\AA) \preceq f(\BB)$.
 %
-\begin{lemma}
+\begin{lemma}\label{lem:trpmonoinc}
   Let $T \subseteq \R$.
   If the scalar function $f : T \to \R$ is monotone increasing, the matrix
   function $\XX \mapsto \trace{f(\XX)}$ is monotone increasing.
@@ -380,7 +380,7 @@ Lemma~\ref{lem:invmono}, the result of the integral, i.e. $\log(\AA)$
 must also be operator monotone increasing.
 \end{proof}
 
-The following is a more general version of Lemma 1.6.
+The following is a more general version of Lemma~\ref{lem:trpmonoinc}
 \begin{lemma}
   Let $T \subset \R$.
   If the scalar function $f : T \to \R$ is monotone, the matrix

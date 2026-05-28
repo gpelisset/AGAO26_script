@@ -61,7 +61,7 @@ new quadratic minimization problem in $\zz$,
 -\dd'^\trp\zz +
   \frac{1}{2}\zz^\trp\LL'\zz
 \]
-where $\dd'$ is a demand vector on the remaining vertices, with $\dd
+where $\dd'$ is a demand vector on the remaining vertices, with $\dd'
 \perp \vecone$ and $\LL'$ is a Laplacian of a graph on the remaining
 vertices $V' = V \setminus \setof{1}$.
 We can then repeat the procedure to eliminate another variable and so on.
@@ -423,7 +423,7 @@ $i,j \in U$.
   \label{clm:schurconnected}
   Fix some $i < n$.
   Let $U = \setof{i+1,\ldots,n}$.
-  Then $\LL^{(i)}(i,j) = 0$ if $i \not\in U$ or $j \not\in U$.
+  Then $\LL^{(i)}(j,k) = 0$ if $j \not\in U$ or $k \not\in U$.
   And $\LL^{(i)}(U, U)$ is a graph Laplacian of a connected graph on
   the vertex set $U$.
 \end{claim}
